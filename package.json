@@ -1,0 +1,15 @@
+{
+  "name": "female_education_15_to_24_viz",
+  "version": "0.1.0",
+  "description": "Visualization of average years of educational attainment for women by country ages 15-24.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "spencer.caldwell@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
