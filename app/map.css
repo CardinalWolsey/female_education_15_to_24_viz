@@ -1,0 +1,18 @@
+/*.label {
+  fill: #777;
+}*/
+
+.year.label {
+  font: 500 150px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.year.label.active {
+  fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
