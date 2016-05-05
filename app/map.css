@@ -22,6 +22,16 @@ p {
   margin-top: 0;
 }
 
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.618em;
+  color: black;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: black;
+}
+
 .year.label {
   font: 500 150px "Helvetica Neue";
   fill: #ddd;
