@@ -1,6 +1,6 @@
 {
   "name": "female_education_15_to_24_viz",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Visualization of average years of educational attainment for women by country ages 15-24.",
   "main": "server.js",
   "scripts": {
