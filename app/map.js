@@ -53,6 +53,9 @@ d3.csv('women_15_to_24.csv', function(data) {
         if(value) {
           return color(value);
         }
+        if(value === undefined) {
+          return '#ffffff';
+        }
     });
 
     var label = svg.append('text')
@@ -101,7 +104,7 @@ d3.csv('women_15_to_24.csv', function(data) {
 
     //updates label, recalculates data, and redraws map fill on mouse event
     function displayYear(year) {
-      roundYear = (Math.round(year)).toString();
+      var roundYear = (Math.round(year)).toString();
       label.text(roundYear);
 
       svg.selectAll('path').data(colorData(roundYear))
@@ -109,6 +112,9 @@ d3.csv('women_15_to_24.csv', function(data) {
         var value = d.properties.value;
         if(value) {
           return color(value);
+        }
+        if(value === undefined) {
+          return '#ffffff';
         }
       });
     }
